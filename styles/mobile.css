@@ -9,3 +9,12 @@
 .hero-image {
   min-height: 250px;
 }
+.hero-section{
+  position: static;
+}
+.hero-description{
+  width: 80%;
+  left: 5%;
+  padding: 20px;
+  top: 300px;
+}

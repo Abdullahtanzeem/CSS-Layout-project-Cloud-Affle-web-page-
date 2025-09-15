@@ -88,6 +88,9 @@
   max-width: var(--max-width);
   margin: auto;
 }
+.hero-section{
+  position: relative;
+}
 .hero-image{
   min-height: 600px;
   background-image: url("../images/Hero-image.png");
@@ -98,6 +101,9 @@
   background-position: center;
 }
 .hero-description{
+ position: absolute;
+  top: 360px;
+  left: 64px;
   width: 600px;
   background-color: #fff;
   border-radius: 0.5rem;
