@@ -18,3 +18,20 @@
   padding: 20px;
   top: 300px;
 }
+.hero-description h1 a{
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+/*Lastest post section styles*/
+.blogs-section{
+  margin-top: 16rem;
+}
+.single-post{
+  flex-basis: 100%;
+}
+
+
+
+
+
