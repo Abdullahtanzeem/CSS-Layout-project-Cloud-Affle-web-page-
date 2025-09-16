@@ -234,3 +234,40 @@
   background-color: var(--primary-color);
   color: #fff;
 }
+
+/* Footer section styles */
+.footer {
+  background-color: #F6F6F7;
+  padding: 32px;
+}
+
+.footer-wrapper {
+  display: flex;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0 16px;
+  justify-content: flex-end;
+}
+
+.footer-links {
+  display: flex;
+}
+.footer-links li {
+  padding: 0 16px;
+  border-right: 1px solid #C6C6C6 ;
+}
+.footer-links li:last-child {
+  padding: 0 0 0 16px;
+  border-right: none ;
+}
+.footer-links li a {
+  text-decoration: none;
+  font-family: var(--font-family);
+  color: #3B3C4A;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: color 0.5s;
+}
+.footer-links li a:hover {
+  color: var(--primary-color);
+}

@@ -31,6 +31,20 @@
   flex-basis: 100%;
 }
 
+/*Footer section styles*/
+.footer-wrapper{
+  max-width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+.footer-links{
+  flex-direction: column;
+  row-gap: 20px;
+}
+.footer-links li{
+  border: none;
+}
+
 
 
 
